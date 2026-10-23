@@ -1,0 +1,7 @@
+configuration,final_bytes,lines,h1,postcard,buttons,pause,keyframes,web_calls,write_edit_path,notes
+build_prompt_with_web,25777,542,0,0,0,0,6,29,1 write (23384 B) + 21 edits,current build prompt; MCP/skills off; openchamber_web available
+build_prompt_without_web,51702,1118,1,1,7,43,23,0,1 write + 17 edits; 21 shell + 15 read,current build prompt; MCP/skills off; openchamber_web denied
+minimal46_with_web,28155,656,0,0,0,0,4,11,shell only; no write/edit,46-char system; MCP/skills off; openchamber_web available
+minimal46_without_web,44033,1021,1,4,0,0,13,0,shell only; no write/edit,46-char system; MCP/skills off; openchamber_web denied
+dsh_reference,32661,767,1,0,6,23,7,0,bash 25 calls + read_image + clipboard,other app/agent; shell/Chrome/CUA; directional reference only
+opencode_shell_chrome_reference,34329,672,1,0,14,18,1,0,1 write (33769 B) + 5 edits; 23 shell + 12 read,OpenCode build agent; shell/Chrome; MCP/skills not controlled; directional reference only
