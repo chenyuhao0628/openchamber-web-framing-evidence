@@ -44,10 +44,10 @@ For a local persistent workaround, patch the bundled `@openchamber/web` template
 
 ## Why this should be fixed upstream
 
-- The behavior is model-agnostic: the tool description, not the model, biases the output.
+- The A/B held model, prompt, and settings constant; the original framing was associated with missing page UI, and the hybrid text restored it in the tested session. This is a tool-affordance/correctness issue, not merely a prompt or model-capability issue. Cross-model behavior was not measured.
 - The current workaround requires editing app-internal copies; users should not need to patch app bundles or run scripts after updates.
-- The practical fix is a description/action-schema change in the built-in template; the executor and browser panel behavior can stay unchanged.
-- Keeping the tool for coding preview remains valid; only standalone creative HTML tasks are affected.
+- The tested fix is a description/action-schema change in the built-in template; the executor and browser panel behavior can stay unchanged.
+- Keeping the tool for coding preview remains valid; the demonstrated scope is standalone HTML/creative tasks, and other task families were not measured.
 
 ## Proposed hybrid positive description
 

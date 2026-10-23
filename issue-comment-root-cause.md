@@ -37,10 +37,11 @@ This is not persistent across app updates/regeneration. A local persistent worka
 
 Why this should be fixed upstream:
 
-- The bias is model-agnostic; it comes from the tool description, not a specific model.
-- Users should not need to patch app-internal copies or run scripts after updates.
-- The practical fix is a description/action-schema change in the bundled template; the executor and browser-panel behavior can remain unchanged.
-- The tool is still useful for coding preview; only standalone creative HTML tasks are affected.
+- The A/B held model, prompt, and settings constant; only `openchamber_web` availability/text changed. The original framing was associated with missing page chrome/controls, while the hybrid text restored them in the tested session. That makes this a tool-affordance/correctness issue, not merely a prompt or model-capability issue. This was demonstrated on one model; cross-model behavior still needs validation.
+- The deliverable is incomplete when the model treats the panel as the page UI: users get an animation but no standalone title/controls.
+- Users should not need to patch app-internal copies or rerun scripts after updates.
+- The tested fix is a small description/action-schema change; the executor and browser-panel behavior can remain unchanged. The tool remains useful for coding preview.
+- The demonstrated scope is standalone HTML/creative tasks; other task families were not measured.
 
 Proposed hybrid positive description:
 
