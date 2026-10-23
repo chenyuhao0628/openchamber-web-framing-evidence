@@ -100,6 +100,9 @@ Option 3 (documentation only): document the permission workaround (deny `opencha
 - `measurements.csv`: the numeric table.
 - `tool-description.md`: the exact description/action quotes.
 - `repro.md`: sanitized reproduction config and prompt.
+- `success-after-hybrid.html` / `success-after-hybrid.png`: fresh session after applying the hybrid positive description to the live managed source copy (44,835 B; one `h1`, one button, pause controls).
+- `root-cause-and-persistence.md`: where the original description is bundled, why source/run patches are temporary, the workaround, and the reasons to fix it upstream.
+- `issue-comment-root-cause.md`: the sanitized follow-up comment posted to issue #5467.
 
 All screenshots are page-only (1440x900, headless Chrome); they do not contain the OpenChamber UI, browser tabs, local paths, session IDs, or user data. The HTML files were scanned for local paths, usernames, tokens, and session IDs; no matches were found.
 
